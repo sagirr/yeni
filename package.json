@@ -1,0 +1,19 @@
+{
+  "name": "pro",
+  "version": "1.0.0",
+  "description": "yenipro",
+  "main": "index.js",
+  "scripts": {
+    "test": "app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagirr/yeni.git"
+  },
+  "author": "sagir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagirr/yeni/issues"
+  },
+  "homepage": "https://github.com/sagirr/yeni#readme"
+}
