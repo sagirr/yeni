@@ -1,11 +1,14 @@
 {
+  "homepage": "https://sagirr.github.io/yeni",
   "name": "pro",
   "version": "1.0.0",
   "description": "yenipro",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js",
-    "test": "app"
+    "start": "node index.js",
+    "test": "app",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,7 @@
   "bugs": {
     "url": "https://github.com/sagirr/yeni/issues"
   },
-  "homepage": "https://github.com/sagirr/yeni#readme"
+  "devDependencies": {
+    "gh-pages": "4.0.0"
+  }
 }
